@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>developers</title>
+    <style>
+        a {
+            color: #333;
+        }
+
+        .nav {
+            line-height: 84px;
+        }
+
+        #banner {
+            width: 100%;
+            background: url("images/banner.png") no-repeat center bottom #2B58FF;
+            background-size: 100%;
+            height: 520px;
+            padding-top: 120px;
+        }
+
+
+        .tittle {
+            height: 200px;
+            text-align: center;
+            width: 60%;
+            margin: auto;
+
+        }
+
+        .tittle_tittle {
+            font-size: 40px;
+            color: rgba(255, 179, 43, 1);
+        }
+
+        .tittle_introduction {
+            font-size: 24px;
+            color: #000;
+        }
+        .button{
+            width: 200px;
+            height: 50xp;
+            height: 70px;
+            background: rgba(255, 179, 43, 1);
+            margin: auto;
+            font-size: 20px;
+            text-align: center;
+            line-height: 70px;
+            color: #fff;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <!-- 导航 -->
+    <section id="menu">
+        <nav class="navbar navbar-dropdown bg-color">
+            <div class="container nav">
+                <div class="mbr-table">
+                    <div class="mbr-table-cell">
+                        <div class="navbar-brand">
+                            <a href="#" class="navbar-logo">
+                                <img src="images/nebulasx60.png" alt="Nebulas">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mbr-table-cell">
+                        <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                            <div class="hamburger-icon"></div>
+                        </button>
+                        <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
+                            <li class="nav-item">
+                                <a class="nav-link link hightlight" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link " href="">NODE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="#">SMART CONTRACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="#">SDK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="#">API</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="#">EXPLORER</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- banner -->
+    <section id="banner">
+        <div class="tittle">
+            <span class="tittle_tittle">Nebulas Developer Portal</span>
+            <br>
+            <span class="tittle_introductions">Nebulas sdfghjkdfghjk dfghjkdfghjk dfghjkdf  dfghjk  dfghjk dfghjk dfghjkdfghjk ghjkdfghjkl sdfghj sdfghjkfghjk sdfg sdfghj sdfghj wertyu qwerty sdfg sdfgh dfghj xcvbn</span>
+        </div>
+        <div class="button">GETTING STARTED</div>
+    </section>
+
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
